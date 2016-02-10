@@ -1,0 +1,27 @@
+{
+  "name": "react-new",
+  "version": "1.0.0",
+  "description": "sample react application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "saranya",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "highcharts": "^4.2.3",
+    "jquery": "^2.2.0",
+    "react": "^0.14.7",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
